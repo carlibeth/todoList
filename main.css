@@ -1,0 +1,95 @@
+.container {
+    background-color: #343c4d;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #82d9f7;
+    color: white;
+}
+h1 {
+    padding: 0;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #343c4d;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+
+.items {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+h2 {
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    
+
+}
+.input {
+    margin: 20px;
+}
+.añadir {
+    width: 400px;
+    padding: 10px;
+    font-family:'Oswald', sans-serif;
+    border: none;
+    border-radius: 2px;
+}
+.active {
+    width: 100px;
+    padding: 9px;
+    background-color:#82d9f7 ;
+    color: white;
+    font-family:'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    box-shadow: -7px 20px 34px -4px rgba(0,0,0,0.75);
+}
+ .Tareas {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-gap: 10px;
+     justify-content: left;
+     height: 400px;
+
+
+ }
+ li {
+     display: flex;
+     justify-content: space-between;
+     height: 20px;
+     list-style: none;
+     font-family: 'Oswald', sans-serif;
+     font-size: 16px;
+     color:  #343c4d;
+     font-weight: lighter;
+ }
+ ul {
+     color: #eed709;
+     font-family: 'Oswald', sans-serif;
+     font-weight: bold;
+     background-color:#f0f0e9;
+     margin-left: 20px;
+     border-radius: 5px;
+ }
+ 
+ button {
+    background-color: #3a3e47;
+    border: none;
+ }
+ 
